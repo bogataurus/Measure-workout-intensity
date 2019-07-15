@@ -14,8 +14,6 @@ resting_heart_rate  = float(input("Enter your resting heart rate: "))
 heart_rate_reserve = float(maximum_heart_rate - resting_heart_rate)
 print("Your heart rate reserve: ",heart_rate_reserve)
 
-
-
 while True:
     your_status = str(input("New to exercise? Enter Yes, No or Quit: ").capitalize())
 
